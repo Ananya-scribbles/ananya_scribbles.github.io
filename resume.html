@@ -1,0 +1,379 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Parameshwari S - ATS Resume</title>
+  <meta name="description" content="ATS-friendly resume for Parameshwari S - Digital Marketing, Social Media Growth, and Paid Meta Advertising Specialist.">
+  
+  <!-- Standard Web Font -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
+
+  <style>
+    /* ATS Optimization Best Practices:
+       - Clean, single-column linear layout
+       - Standard CSS fonts
+       - No tables, graphics, or nested floating elements that disrupt parser reading order
+       - Standard semantic tags: h1, h2, h3, p, ul, li
+    */
+    * {
+      box-sizing: border-box;
+      margin: 0;
+      padding: 0;
+    }
+
+    body {
+      font-family: 'Inter', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif;
+      color: #1a202c;
+      background-color: #f7fafc;
+      line-height: 1.5;
+      font-size: 10.5pt;
+      padding: 40px 20px;
+    }
+
+    .resume-wrapper {
+      max-width: 820px;
+      margin: 0 auto;
+      background: #ffffff;
+      padding: 48px;
+      box-shadow: 0 4px 20px rgba(0, 0, 0, 0.08);
+      border-radius: 8px;
+    }
+
+    /* Print & ATS Rules as Mandated */
+    @media print {
+      @page { 
+        margin: 15mm; 
+        size: auto;
+      }
+      body {
+        background-color: #ffffff !important;
+        padding: 0 !important;
+        color: #000000 !important;
+      }
+      .resume-wrapper {
+        box-shadow: none !important;
+        padding: 0 !important;
+        border-radius: 0 !important;
+        max-width: 100% !important;
+      }
+      .no-print, header, footer {
+        display: none !important;
+      }
+      a {
+        text-decoration: none !important;
+        color: #000000 !important;
+      }
+    }
+
+    /* Header styling */
+    .header {
+      text-align: center;
+      border-bottom: 2px solid #06b6d4;
+      padding-bottom: 16px;
+      margin-bottom: 22px;
+    }
+
+    h1 {
+      font-size: 22pt;
+      font-weight: 700;
+      letter-spacing: 0.5px;
+      color: #0f172a;
+      text-transform: uppercase;
+      margin-bottom: 4px;
+    }
+
+    .title {
+      font-size: 12pt;
+      font-weight: 600;
+      color: #0891b2;
+      margin-bottom: 8px;
+    }
+
+    .contact-info {
+      font-size: 9.5pt;
+      color: #475569;
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: center;
+      gap: 12px;
+    }
+
+    .contact-info a {
+      color: #0891b2;
+      text-decoration: none;
+    }
+
+    .contact-info a:hover {
+      text-decoration: underline;
+    }
+
+    /* Section Styles */
+    section {
+      margin-bottom: 20px;
+    }
+
+    h2 {
+      font-size: 11pt;
+      font-weight: 700;
+      text-transform: uppercase;
+      letter-spacing: 1px;
+      color: #0f172a;
+      border-bottom: 1px solid #cbd5e1;
+      padding-bottom: 4px;
+      margin-bottom: 10px;
+    }
+
+    p {
+      margin-bottom: 8px;
+      color: #334155;
+      text-align: justify;
+    }
+
+    /* Job Entry */
+    .job-entry {
+      margin-bottom: 14px;
+    }
+
+    .job-header {
+      display: flex;
+      justify-content: space-between;
+      align-items: baseline;
+      font-weight: 600;
+      color: #0f172a;
+      font-size: 10.5pt;
+    }
+
+    .job-sub {
+      display: flex;
+      justify-content: space-between;
+      color: #0891b2;
+      font-size: 9.5pt;
+      font-weight: 500;
+      margin-bottom: 6px;
+    }
+
+    ul {
+      margin-left: 18px;
+      margin-top: 4px;
+      margin-bottom: 8px;
+    }
+
+    li {
+      margin-bottom: 5px;
+      color: #334155;
+      font-size: 10pt;
+    }
+
+    /* Skills list */
+    .skill-category {
+      margin-bottom: 6px;
+      font-size: 10pt;
+    }
+
+    .skill-title {
+      font-weight: 600;
+      color: #0f172a;
+    }
+
+    /* Screen-only Action Toolbar */
+    .action-toolbar {
+      max-width: 820px;
+      margin: 0 auto 20px auto;
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      background: #0f172a;
+      color: #ffffff;
+      padding: 12px 24px;
+      border-radius: 8px;
+    }
+
+    .btn {
+      display: inline-flex;
+      align-items: center;
+      gap: 8px;
+      padding: 8px 16px;
+      font-size: 9.5pt;
+      font-weight: 600;
+      border-radius: 6px;
+      cursor: pointer;
+      text-decoration: none;
+      transition: all 0.2s ease;
+      border: none;
+    }
+
+    .btn-primary {
+      background-color: #06b6d4;
+      color: #000000;
+    }
+
+    .btn-primary:hover {
+      background-color: #22d3ee;
+    }
+
+    .btn-secondary {
+      background-color: rgba(255, 255, 255, 0.15);
+      color: #ffffff;
+    }
+
+    .btn-secondary:hover {
+      background-color: rgba(255, 255, 255, 0.25);
+    }
+  </style>
+</head>
+<body>
+
+  <!-- Screen-Only Action Bar -->
+  <div class="action-toolbar no-print">
+    <div style="font-size: 10pt; font-weight: 500;">
+      📄 <strong>ATS-Friendly Resume Preview</strong>
+    </div>
+    <div style="display: flex; gap: 10px;">
+      <a href="index.html" class="btn btn-secondary">
+        ← Back to Portfolio
+      </a>
+      <button onclick="window.print()" class="btn btn-primary">
+        🖨️ Print / Save to PDF
+      </button>
+    </div>
+  </div>
+
+  <!-- Main Resume Content (Single Clean Column for ATS Scanners) -->
+  <main class="resume-wrapper">
+
+    <!-- Header Section -->
+    <header class="header">
+      <h1>PARAMESHWARI S</h1>
+      <div class="title">Digital Marketing & Social Media Management</div>
+      <div class="contact-info">
+        <span>Coimbatore, Tamil Nadu, India</span>
+        <span>•</span>
+        <span><a href="mailto:ananyasenthil2006paramu@gmail.com">ananyasenthil2006paramu@gmail.com</a></span>
+        <span>•</span>
+        <span><a href="https://www.linkedin.com/in/s-parameshwari-senthil-6ab234326" target="_blank">LinkedIn Profile</a></span>
+        <span>•</span>
+        <span><a href="https://github.com/ananya_scribbles" target="_blank">GitHub: ananya_scribbles</a></span>
+      </div>
+    </header>
+
+    <!-- Professional Summary -->
+    <section>
+      <h2>Professional Summary</h2>
+      <p>
+        Digital marketing professional with hands-on experience in social media management, SEO, and paid Meta advertising. Managed content and growth strategy across a business account and an individual creator account, improving engagement (likes, shares), audience reach, and post virality through data-driven reporting. Skilled in keyword research, competitor analysis, and multi-platform content scheduling. Bilingual in Tamil and English.
+      </p>
+    </section>
+
+    <!-- Core Skills -->
+    <section>
+      <h2>Core Skills</h2>
+      <div class="skill-category">
+        <span class="skill-title">• Social Media Management:</span> Content strategy, community management, engagement growth, performance reporting
+      </div>
+      <div class="skill-category">
+        <span class="skill-title">• SEO & Search Intent:</span> On-page & off-page SEO, keyword research, competitor analysis, search intent research
+      </div>
+      <div class="skill-category">
+        <span class="skill-title">• SEO Software:</span> Google Keyword Planner, Ahrefs, SEMrush, AnswerThePublic, Opus
+      </div>
+      <div class="skill-category">
+        <span class="skill-title">• Scheduling & Automation:</span> Planoly, Hootsuite, Boostgram, SocialBee
+      </div>
+      <div class="skill-category">
+        <span class="skill-title">• Paid Advertising:</span> Meta Ads (Facebook & Instagram) campaign setup and management, lead generation
+      </div>
+      <div class="skill-category">
+        <span class="skill-title">• Analytics & Reporting:</span> Instagram/Meta insights, reach and engagement analysis, growth reporting
+      </div>
+      <div class="skill-category">
+        <span class="skill-title">• Creative & AI Tools:</span> Canva Pro, ChatGPT, Claude, Notion, Google Workspace
+      </div>
+    </section>
+
+    <!-- Professional Experience -->
+    <section>
+      <h2>Professional Experience</h2>
+
+      <!-- Role 1 -->
+      <div class="job-entry">
+        <div class="job-header">
+          <span>Freelance Digital Marketing & Social Media Manager</span>
+          <span>Present</span>
+        </div>
+        <div class="job-sub">
+          <span>Self-Employed</span>
+          <span>Coimbatore, Tamil Nadu</span>
+        </div>
+        <ul>
+          <li>Managed two social media accounts in parallel — one business account and one individual creator account — owning content planning, posting, and community engagement for both.</li>
+          <li>Tracked and analyzed performance reports (likes, shares, reach, and engagement) for each account to identify what drove profitability and viral reach.</li>
+          <li>Used insights from analytics to refine content strategy, improving engagement rate and follower growth over time.</li>
+          <li>Scheduled and published posts and reels using Planoly, Hootsuite, Boostgram, and SocialBee to maintain consistent posting cadence.</li>
+          <li>Conducted SEO and keyword research using Google Keyword Planner, Ahrefs, SEMrush, and AnswerThePublic, and used Opus for content repurposing.</li>
+        </ul>
+      </div>
+
+      <!-- Role 2 -->
+      <div class="job-entry">
+        <div class="job-header">
+          <span>Business Development Associate & Meta Ads Manager</span>
+          <span>8 Months</span>
+        </div>
+        <div class="job-sub">
+          <span>EdTech Company</span>
+          <span>Remote / Hybrid</span>
+        </div>
+        <ul>
+          <li>Managed Meta advertising campaigns to support lead generation and brand visibility.</li>
+          <li>Combined business development activity with digital marketing execution, supporting sales and outreach goals.</li>
+        </ul>
+      </div>
+
+      <!-- Role 3 -->
+      <div class="job-entry">
+        <div class="job-header">
+          <span>Freelance Business Development Contractor</span>
+          <span>Current</span>
+        </div>
+        <div class="job-sub">
+          <span>STEM-Xpert (Techgenius Innovations Pvt Ltd)</span>
+          <span>Coimbatore, Tamil Nadu</span>
+        </div>
+        <ul>
+          <li>Drive direct sales of STEM Centres to tuition centres and recruit Block/District/State partners across Coimbatore and Tamil Nadu.</li>
+          <li>Apply bilingual (Tamil & English) communication and a bespoke sales toolkit to engage prospects.</li>
+        </ul>
+      </div>
+    </section>
+
+    <!-- Education -->
+    <section>
+      <h2>Education</h2>
+      <div class="job-entry">
+        <div class="job-header">
+          <span>BA Economics (Undergraduate)</span>
+          <span>Kumaraguru College of Liberal Arts and Science</span>
+        </div>
+        <div class="job-sub">
+          <span>Affiliated with Bharathiar University</span>
+          <span>Coimbatore, Tamil Nadu</span>
+        </div>
+      </div>
+    </section>
+
+    <!-- Languages -->
+    <section>
+      <h2>Languages</h2>
+      <ul>
+        <li><strong>Tamil:</strong> Native proficiency</li>
+        <li><strong>English:</strong> Professional working proficiency</li>
+      </ul>
+    </section>
+
+  </main>
+
+</body>
+</html>
